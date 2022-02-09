@@ -1,0 +1,168 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Poppins:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+    background-color: #212121;
+    color: white;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 1.2;
+    background-color: transparent;
+    background-image: linear-gradient(170deg, #37DFE5 33%, #CB6BFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-size: 15px;
+    padding-top: 28px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+nav {
+    height: 88px;
+    background: rgb(66,214,231);
+    background: linear-gradient(170deg, #37DFE5 16%, #CB6BFF 100%);
+    display: flex;
+    flex-wrap: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color:#141069;
+    font-size: 15px;
+}
+
+.slogan {
+    color: black;
+    font-style: italic;
+}
+
+.top-header {
+    width: 1080px;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-header {
+    justify-content: left;
+}
+
+.left-header, .slogan {
+    text-decoration: none;
+}
+
+.right-header {
+    gap: 1.5rem;
+}
+
+
+.right-header li a  {
+    text-decoration: none;
+}
+
+.right-header li a:hover  {
+    position: relative;
+    bottom: 3px;
+    text-decoration: underline;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+
+.hero-container {
+    height: 670px;
+    background-image: url(roseG.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+}
+
+.hero-content {
+    padding-top: 190px;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+.left-align {
+    width: 730px;
+}
+
+.cta-btn {
+    padding-top: 45px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: 30px;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+button:hover {
+    position: relative;
+    bottom: 2px;
+}
+
+.enroll {
+    border: transparent;
+    color: #141069;
+    background: rgb(66,214,231);
+    background: linear-gradient(170deg, #37DFE5 16%, #CB6BFF 100%);
+}
+
+
+.enroll:hover {
+    display: relative;
+    bottom: 10px;
+}
+
+.employ {
+    background-color: transparent;
+    border: 1px solid #5fcccc;
+    color: white;
+}
